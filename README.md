@@ -8,3 +8,6 @@ This project was assigned after Week 1 of SD16 Java Coding.
 ### Technologies Used
 * Java
 * Java Operators, especially %
+
+
+### Lessons Learned
