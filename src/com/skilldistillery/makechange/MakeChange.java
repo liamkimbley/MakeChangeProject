@@ -79,24 +79,18 @@ public class MakeChange {
 			}
 			if (change >= .05) {
 				nickel = (int)(change/.05);
-				if (nickel == 1) {
-					System.out.print("1 nickel, ");
-				}
-				else {
-					System.out.print((int)nickel + " nickels, ");
-				}
-				change = change % .05;
+				System.out.print("1 nickel, ");
+				change = change % .045;
 			}
 			if (change >= .006) {
-				penny = (int)(change/.01);
-				System.out.print(penny);
-				if (penny <= 1) {
+				penny = (int)(change/.009);
+//				System.out.print(penny);
+				if (penny == 1) {
 					System.out.println("1 penny.");
 				}
 				else {
-					System.out.println(((int)penny + 1) + " pennies.");
+					System.out.println(((int)penny) + " pennies.");
 				}
-				change = change % .01;
 			}
 //			System.out.println(change);
 		}
