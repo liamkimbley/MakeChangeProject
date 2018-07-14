@@ -7,7 +7,7 @@ public class MakeChange {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Welcome! This will calculate the change that need to be returned.");
+		System.out.println("Welcome! This will calculate the change that needs to be returned.");
 		while (true) {
 			System.out.println("To Quit, please type \"QUIT\".");
 			System.out.print("Please enter the price of the item: ");
